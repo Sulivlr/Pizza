@@ -4,7 +4,7 @@ import {RootState} from '../app/store';
 
 interface CartState {
   cartDishes: CartDish[];
-};
+}
 const initialState: CartState = {
   cartDishes: []
 };
