@@ -9,7 +9,7 @@ const noImageAvailable = 'https://t3.ftcdn.net/jpg/04/62/93/66/360_F_462936689_B
 interface Props {
   dish: Dish;
   onDelete: React.MouseEventHandler;
-  deleteLoading: false | string;
+  deleteLoading: boolean | string | false;
 }
 
 const DishItem: React.FC<Props> = ({ dish, onDelete, deleteLoading }) => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import CartItem from './CartItem';
-import {CartDish} from '../types';
+import {CartDish} from '../../types';
 
 interface Props {
   cartDishes: CartDish[];
